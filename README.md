@@ -1,4 +1,5 @@
 DevOps Exam Application 🚀
+
 📌 **Project Overview**
 This project demonstrates a complete DevOps CI/CD pipeline for a 3-tier web application.
 The application allows users to attempt a mock exam and stores results in a MySQL database.
@@ -49,6 +50,9 @@ However, due to limited EC2 resources, it was disabled to ensure smooth pipeline
 
 ### EC2 Instance
 ![EC2](screenshots/07-ec2-instance.png)
+
+## 🚀 How to Access
+Application URL: http://3.111.58.228:5000
 
 
 
