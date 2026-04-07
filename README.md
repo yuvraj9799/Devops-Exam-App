@@ -8,13 +8,17 @@ The application allows users to attempt a mock exam and stores results in a MySQ
 Frontend (HTML) → Backend (Python Flask) → Database (MySQL)
 
 ⚙️ **Tools Used**
-Tool	                      Purpose
-Jenkins      	          CI/CD Pipeline
-Docker	                Containerization
-Docker Compose	        Multi-container deployment
-Trivy	                  Security scanning
-Docker Scout	          Image vulnerability scan
-AWS EC2	                Cloud hosting
+| Tool | Purpose |
+|------|---------|
+| AWS EC2 (t3.small) | Cloud Server |
+| Jenkins | CI/CD Pipeline |
+| Docker | Containerization |
+| Docker Compose | Multi-container Deploy |
+| Trivy | Security Scanning |
+| Docker Scout | Image Analysis |
+| MySQL | Database |
+| Python Flask | Backend |
+| HTML | Frontend |
 
 **CI/CD Pipeline Stages**
 1.	Git Checkout
