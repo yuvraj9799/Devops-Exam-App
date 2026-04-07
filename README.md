@@ -30,10 +30,10 @@ However, due to limited EC2 resources, it was disabled to ensure smooth pipeline
 
 **Screenshots:**
 ### Jenkins Pipeline
-![Jenkins](screenshots/01-jenkins-pipeline.png)
+![Jenkins](screenshots/01.jenkins-pipeline.png.jpg)
 
 ### Application Homepage
-![App](screenshots/03-app-homepage.png)
+![App](screenshots/03-app-homepage.jpg)
 
 ### DockerHub Image
 ![DockerHub](screenshots/02-dockerhub-image.png)
