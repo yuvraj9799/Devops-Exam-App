@@ -1,1 +1,65 @@
-Watch the video here: https://youtu.be/BScNFDBdE7M
+DevOps Exam Application 🚀
+
+📌 **Project Overview**
+This project demonstrates a complete DevOps CI/CD pipeline for a 3-tier web application.
+The application allows users to attempt a mock exam and stores results in a MySQL database.
+
+🏗️ **Architecture**
+Frontend (HTML) → Backend (Python Flask) → Database (MySQL)
+
+⚙️ **Tools Used**
+| Tool | Purpose |
+|------|---------|
+| AWS EC2 (t3.small) | Cloud Server |
+| Jenkins | CI/CD Pipeline |
+| Docker | Containerization |
+| Docker Compose | Multi-container Deploy |
+| Trivy | Security Scanning |
+| Docker Scout | Image Analysis |
+| MySQL | Database |
+| Python Flask | Backend |
+| HTML | Frontend |
+
+**CI/CD Pipeline Stages**
+1.	Git Checkout
+2.	Trivy File System Scan
+3.	Docker Build
+4.	Docker Push to DockerHub
+5.	Docker Scout Scan
+6.	Deployment using Docker Compose
+7.	Verification
+
+ **SonarQube Note**
+SonarQube integration was initially configured for code quality analysis.
+However, due to limited EC2 resources, it was disabled to ensure smooth pipeline execution.
+
+**Screenshots:**
+### Jenkins Pipeline
+![Jenkins](screenshots/01.jenkins-pipeline.png.jpg)
+
+### Application Homepage
+![App](screenshots/03-app-homepage.jpg)
+
+### DockerHub Image
+![DockerHub](screenshots/02-dockerhub-image.png)
+
+### Exam Questions
+![Questions](screenshots/04-exam-questions.png)
+
+### Exam Result
+![Result](screenshots/05-exam-result.png)
+
+### Docker Containers Running
+![Docker](screenshots/06-docker-containers.png)
+
+### EC2 Instance
+![EC2](screenshots/07-ec2-instance.png)
+
+## 🚀 How to Access
+Application URL: http://3.111.58.228:5000
+
+
+
+
+
+
