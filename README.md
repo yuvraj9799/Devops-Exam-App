@@ -29,7 +29,26 @@ SonarQube integration was initially configured for code quality analysis.
 However, due to limited EC2 resources, it was disabled to ensure smooth pipeline execution.
 
 **Screenshots:**
-Jenkins Pipeline Success
+### Jenkins Pipeline
+![Jenkins](screenshots/01-jenkins-pipeline.png)
+
+### Application Homepage
+![App](screenshots/03-app-homepage.png)
+
+### DockerHub Image
+![DockerHub](screenshots/02-dockerhub-image.png)
+
+### Exam Questions
+![Questions](screenshots/04-exam-questions.png)
+
+### Exam Result
+![Result](screenshots/05-exam-result.png)
+
+### Docker Containers Running
+![Docker](screenshots/06-docker-containers.png)
+
+### EC2 Instance
+![EC2](screenshots/07-ec2-instance.png)
 
 
 
